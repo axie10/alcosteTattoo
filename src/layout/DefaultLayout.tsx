@@ -4,6 +4,8 @@
 import { Footer } from "@/components/Footer";
 import { Loader } from "@/components/Loader";
 import { Navbar } from "@/components/Navbar";
+import { InstagramButton } from "@/components/ui/InstagramButton";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 import { useEffect, useState } from "react";
 
 export default function DefaultLayout({ children }: { children: React.ReactNode }) {
@@ -26,7 +28,10 @@ export default function DefaultLayout({ children }: { children: React.ReactNode 
           <main className="w-full bg-black min-h-screen">
             {children}
           </main>
-          <Footer /></>
+          <Footer />
+          {/* <WhatsAppButton /> */}
+          {/* <InstagramButton /> */}
+          </>
       )}
     </div>
   );

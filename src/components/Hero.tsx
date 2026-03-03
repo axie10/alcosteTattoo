@@ -28,7 +28,7 @@ export default function Hero() {
         
         <div className="flex gap-6 justify-center pt-6 flex-wrap">
           {/* Botón Primario: Fondo blanco, texto oscuro */}
-          <Button size="lg" className="bg-white text-zinc-950 hover:bg-zinc-200 text-lg px-8 py-6 rounded-full transition-all">
+          <Button size="lg" className="bg-white text-zinc-950 hover:bg-zinc-200 text-lg px-8 py-6 rounded-full transition-all" onClick={() => window.location.href = '/galeria'}>
             Ver Portafolio
           </Button>
           

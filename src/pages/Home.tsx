@@ -6,6 +6,7 @@ import About from '@/components/About';
 import Hero from '@/components/Hero';
 import TattooCarousel from '@/components/TattooCarousel';
 import DefaultLayout from '@/layout/DefaultLayout';
+import { MapSection } from '@/components/MapSection';
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
                 <About />
                 <TattooCarousel />
                 <FAQSection />
+                {/* <MapSection /> */}
             </div>
         </DefaultLayout>
     );
