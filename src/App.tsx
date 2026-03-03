@@ -1,38 +1,12 @@
-import { useEffect, useState } from 'react';
-import './App.css'
-import Hero from './components/Hero';
-import { Navbar } from './components/Navbar';
-import { Loader } from './components/Loader';
-import About from './components/About';
-import { Footer } from './components/Footer';
-import TattooCarousel from './components/TattooCarousel';
-import { FAQSection } from './components/FAQSection';
+import { Route, Router, Routes } from 'react-router-dom';
+import GalleryPage from './pages/GalleryPage';
+import Home from './pages/Home';
 
-function App() {
-  const [loading, setLoading] = useState(true);
-
-  // Simulamos una carga de 2 segundos (puedes quitar esto luego)
-  useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
+export default function App() {
   return (
-    <main className="w-full bg-black min-h-screen">
-      {loading ? (
-        <Loader />
-      ) : (
-        <>
-          <Navbar />
-          <Hero />
-          <About />
-          <TattooCarousel />
-          <FAQSection />
-          <Footer />
-        </>
-      )}
-    </main>
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/galeria" element={<GalleryPage />} />
+    </Routes>
   );
 }
-
-export default App

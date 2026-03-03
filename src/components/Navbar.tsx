@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 export function Navbar() {
   return (
@@ -6,12 +7,14 @@ export function Navbar() {
 
       {/* Logo - Añadimos shrink-0 para que nunca se aplaste */}
       <div className="text-white font-bold text-xl tracking-tighter shrink-0">
-        ALCOSTE<span className="text-amber-800">TATTOO</span>
+        <Link to="/">
+          ALCOSTE<span className="text-amber-800">TATTOO</span>
+        </Link>
       </div>
 
       {/* Enlaces - Ocultos en móvil, se muestran en md */}
       <div className="hidden md:flex gap-8 text-white/80 font-medium">
-        <a href="#galeria" className="hover:text-white transition">Galería</a>
+        <Link to="/galeria" className="hover:text-amber-800 transition">Galería</Link>
         <a href="#estilos" className="hover:text-white transition">Estilos</a>
         <a href="#contacto" className="hover:text-white transition">Contacto</a>
       </div>

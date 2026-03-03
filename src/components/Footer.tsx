@@ -2,7 +2,7 @@ import { MapPin, Phone, Instagram, Clock, Mail } from "lucide-react";
 
 export function Footer() {
     return (
-        <footer className="bg-black border-t border-zinc-900 pt-20 pb-10 md:px-20">
+        <footer className="bg-black border-t border-zinc-900 pt-20 pb-10 px-6 md:px-20">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-zinc-400">
 
                 {/* Columna 1: Branding */}
@@ -59,9 +59,9 @@ export function Footer() {
 
             </div>
 
-            {/* Pie inferior */}
-            <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-zinc-900 text-center text-xs text-zinc-600">
-                <p>© {new Date().getFullYear()} Axie Studio. Diseñado con intención.</p>
+            {/* Pie inferior: Añadí px-6 también aquí por consistencia */}
+            <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-zinc-900 text-center text-xs text-zinc-600 px-6">
+                <p>© {new Date().getFullYear()} Axie_Developer. Diseñado con intención.</p>
             </div>
         </footer>
     );
