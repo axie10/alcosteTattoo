@@ -33,9 +33,9 @@ export default function Hero() {
           </Button>
           
           {/* Botón Secundario: Borde y texto en marrón oscuro (amber-800) */}
-          <Button variant="outline" size="lg" className="text-amber-800 border-amber-800 hover:bg-amber-800 hover:text-white text-lg px-8 py-6 rounded-full transition-all">
+          {/* <Button variant="outline" size="lg" className="text-amber-800 border-amber-800 hover:bg-amber-800 hover:text-white text-lg px-8 py-6 rounded-full transition-all">
             Pedir Cita
-          </Button>
+          </Button> */}
         </div>
       </div>
     </section>

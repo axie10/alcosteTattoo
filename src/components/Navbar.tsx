@@ -30,7 +30,7 @@ export function Navbar() {
         >
           <InstagramIcon className="w-5 h-5" />
         </a>
-        <Button className="bg-white text-black hover:bg-zinc-200">Reserva</Button>
+        {/* <Button className="bg-white text-black hover:bg-zinc-200">Reserva</Button> */}
       </div>
 
       {/* Botón Hamburguesa (Solo en móvil) */}
@@ -58,7 +58,7 @@ export function Navbar() {
             <InstagramIcon className="w-8 h-8" />
           </a>
 
-          <Button className="bg-white text-black mt-4" onClick={() => setIsOpen(false)}>Reserva</Button>
+          {/* <Button className="bg-white text-black mt-4" onClick={() => setIsOpen(false)}>Reserva</Button> */}
         </div>
       )}
     </nav>
