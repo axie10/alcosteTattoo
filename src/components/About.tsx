@@ -12,7 +12,7 @@ export default function About() {
                     </h2>
 
                     <div className="space-y-6 text-zinc-300">
-                        <p className="text-xl leading-relaxed font-light">
+                        <p className="text-lg leading-relaxed text-zinc-400">
                             No me gusta hacer "tatuajes de catálogo". Me gusta hacer cosas que tengan sentido para ti y que, cuando te mires al espejo dentro de diez años, sigan contando algo real.
                         </p>
                         <p className="text-lg leading-relaxed text-zinc-400">
