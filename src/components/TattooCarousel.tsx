@@ -1,4 +1,3 @@
-import * as React from "react";
 // Importamos las imágenes de los tatuajes
 import tattoo1 from "../assets/alcoste_painting.jpg";
 import tattoo2 from "../assets/alcoste_painting.jpg";
