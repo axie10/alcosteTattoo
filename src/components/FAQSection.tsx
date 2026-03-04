@@ -26,7 +26,7 @@ const faqData = [
 
 export function FAQSection() {
     return (
-        <section className="w-full bg-black py-24 px-6 md:px-20 border-t border-zinc-900">
+        <section className="w-full bg-black py-10 md:py-24 px-6 md:px-20 border-t border-zinc-900">
             <div className="max-w-3xl mx-auto space-y-12">
 
                 <div className="text-center space-y-3">

@@ -22,7 +22,7 @@ export function Navbar() {
         <a href="#estilos" className="hover:text-white transition">Estilos</a>
         <a href="#contacto" className="hover:text-white transition">Contacto</a>
         <a
-          href="https://www.instagram.com/alcostetattoo/"
+          href="https://www.instagram.com/alcoste.tattoo/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-zinc-400 hover:text-amber-800 transition"
@@ -49,7 +49,7 @@ export function Navbar() {
           <a href="#contacto" onClick={() => setIsOpen(false)} className="hover:text-amber-800">Contacto</a>
 
           <a
-            href="https://www.instagram.com/alcostetattoo/"
+            href="https://www.instagram.com/alcoste.tattoo/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-zinc-400 hover:text-amber-800"

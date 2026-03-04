@@ -2,7 +2,7 @@ import { MapPin, Phone, Instagram, Clock, Mail } from "lucide-react";
 
 export function Footer() {
     return (
-        <footer className="bg-black border-t border-zinc-900 pt-20 pb-10 px-6 md:px-20">
+        <footer id="contacto" className="bg-black border-t border-zinc-900 pt-20 pb-10 px-6 md:px-20">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-zinc-400">
 
                 {/* Columna 1: Branding */}

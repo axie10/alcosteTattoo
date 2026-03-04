@@ -35,6 +35,7 @@
 
 @layer base {
   html, body {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     /* Esto asegura que el fondo negro cubra hasta el último píxel */

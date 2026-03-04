@@ -2,7 +2,7 @@ import alcosteImage from '../assets/alcoste_painting.jpg';
 
 export default function About() {
     return (
-        <section className="w-full bg-black py-24 px-6 md:px-20">
+        <section className="w-full bg-black py-10 md:py-24 px-6 md:px-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
 
                 {/* Texto más humano y cercano */}
