@@ -19,9 +19,9 @@ export default function DefaultLayout({ children }: { children: React.ReactNode 
   return (
     // He cambiado h-screen por min-h-screen para evitar problemas si la web es muy larga
     <div>
-      {loading ? (
+      {/* {loading ? (
         <Loader />
-      ) : (
+      ) : ( */}
         <><Navbar />
           <main className="w-full bg-black min-h-screen">
             {children}
@@ -30,7 +30,7 @@ export default function DefaultLayout({ children }: { children: React.ReactNode 
           {/* <WhatsAppButton /> */}
           {/* <InstagramButton /> */}
           </>
-      )}
+      {/* )} */}
     </div>
   );
 }

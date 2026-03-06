@@ -19,7 +19,7 @@ export function Navbar() {
       {/* Menú Desktop (Oculto en móvil) */}
       <div className="hidden md:flex gap-8 items-center text-white/80 font-medium">
         <Link to="/galeria" className="hover:text-amber-800 transition">Galería</Link>
-        <a href="#estilos" className="hover:text-white transition">Estilos</a>
+        <Link to="/styles" className="hover:text-amber-800 transition">Estilos</Link>
         <a href="#contacto" className="hover:text-white transition">Contacto</a>
         <a
           href="https://www.instagram.com/alcoste.tattoo/"
@@ -45,7 +45,7 @@ export function Navbar() {
       {isOpen && (
         <div className="absolute top-0 left-0 w-full h-screen bg-black/95 backdrop-blur-lg flex flex-col items-center justify-center gap-8 text-xl text-white md:hidden">
           <Link to="/galeria" onClick={() => setIsOpen(false)} className="hover:text-amber-800">Galería</Link>
-          <a href="#estilos" onClick={() => setIsOpen(false)} className="hover:text-amber-800">Estilos</a>
+          <Link to="/styles" onClick={() => setIsOpen(false)} className="hover:text-amber-800">Estilos</Link>
           <a href="#contacto" onClick={() => setIsOpen(false)} className="hover:text-amber-800">Contacto</a>
 
           <a
